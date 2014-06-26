@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<!-- Main plugin class  这里是最重要滴，就是你的插件的全路径-->
+	<class>com.iteye.redhacker.openfire.plugin.HelloWorldPlugin</class>
+ 
+	<!-- Plugin meta-data -->
+	<name>HelloWorldPlugin</name>
+	<description>This is a hello world plugin.</description>
+	<author>redhacker</author>
+ 
+	<version>1.0</version>
+	<date>30/07/2013</date>
+	<url>http://localhost:9090/openfire/plugins.jsp</url>
+	<minServerVersion>3.4.1</minServerVersion>
+	<licenseType>gpl</licenseType>
+ 
+	<adminconsole>    
+	</adminconsole>
+</plugin>
